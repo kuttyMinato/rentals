@@ -1,9 +1,14 @@
 app_name = "rentals"
 app_title = "Rentals"
-app_publisher = "kutty"
+app_publisher = "Frappe"
 app_description = "this is for booking and riding "
-app_email = "kutty@gmail.com"
+app_email = "krsh.143.mi@gmail.com"
 app_license = "mit"
+
+
+website_route_rules= [
+    {"from_route": "/custom", "to_route": "handler"},
+]
 # required_apps = []
 
 # Includes in <head>
